@@ -106,4 +106,4 @@ For more help, see:
 
 **Note:** File sizes are limited to 25 MB when adding files to a repository via GitHub in a browser. If your
 dataset is larger than this, you can try compressing it into a ".zip" to make the file smaller, and then
-add it to the repository on GitHub.
+add it to the repository on GitHub. If you run into problems, please email me (nhand@design.upenn.edu).
