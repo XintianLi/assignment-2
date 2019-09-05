@@ -36,7 +36,7 @@ Be sure to activate the "musa-620" environment before launching the notebook!
 In this part, you'll use matplotlib, seaborn, and altair to explore a
 dataset of your choosing and generate some charts in a Jupyter notebook.
 
-### Part 2.1: Selecting a dataset
+### Part 2.1: Select a dataset
 
 For this assignment, you can choose your own dataset to explore. I recommend selecting a dataset from [OpenDataPhilly](https://www.opendataphilly.org/). You are welcome to to use a dataset from elsewhere, **but please email me and let me know what you want to analyze.**
 
@@ -54,7 +54,7 @@ and many more...
 
 For OpenDataPhilly datasets, data files can be downloaded in the form of CSV files.
 
-### Part 2.2: Exploring and generating the charts
+### Part 2.2: Explore and visualize the data
 
 From within a Jupyter notebook, you should explore the
 datasets and generate charts visualizing different aspects of the data.
