@@ -1,0 +1,78 @@
+# Assignment #2 (Required)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MUSA-620-Fall-2019/assignment-2/master)
+
+### Due Date: 9/19 by the start of class
+
+**This homework assignment is required.**
+
+## Recommended Readings
+
+- [Seaborn example gallery](https://seaborn.pydata.org/examples/index.html)
+- [Altair user guide](https://altair-viz.github.io/)
+
+## Reference materials
+
+- [matplotlib](https://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [altair](https://altair-viz.github.io/)
+
+## Part 1: Installing the necessary dependencies
+
+You will need to update the "musa-620" conda environment created as part of
+last week's assignment. The necessary dependencies are listed in the
+[environment.yml](environment.yml) file in this repository.
+
+You can update the conda environment on your local environment following
+[the guide](https://github.com/MUSA-620-Fall-2019/course-materials/blob/master/general-guides/updating-your-environment.md) on the course materials repository.
+
+And then you are ready to launch a Jupyter notebook ([a guide](https://github.com/MUSA-620-Fall-2019/course-materials/blob/master/general-guides/launching-jupyter-notebook.md) is available on the
+course materials repository.
+
+Be sure to activate the "musa-620" environment before launching the notebook!
+
+## Part 2: Exploratory Data Visualization
+
+In this part, you'll use matplotlib, seaborn, and altair to explore a
+dataset of your choosing and generate some charts in a Jupyter notebook.
+
+### Part 2.1: Selecting a dataset
+
+For this assignment, you can choose your own dataset to explore. I recommend selecting a dataset from [OpenDataPhilly](https://www.opendataphilly.org/). You are welcome to to use a dataset from elsewhere, **but please email me and let me know what you want to analyze.**
+
+Datasets with timestamped entries will be particularly good for analysis, but there are many
+interesting datasets to consider. They include:
+
+- [311 Requests](https://www.opendataphilly.org/dataset/311-service-and-information-requests)
+- [Voter turnout](https://www.opendataphilly.org/dataset/voter-turnout)
+- [Complaints against police](https://www.opendataphilly.org/dataset/police-complaints)
+- [Parking violations](https://www.opendataphilly.org/dataset/parking-violations)
+- [Shooting victims](https://www.opendataphilly.org/dataset/shooting-victims)
+- [L+I Violations](https://www.opendataphilly.org/dataset/licenses-and-inspections-violations)
+
+and many more...
+
+For OpenDataPhilly datasets, data files can be downloaded in the form of CSV files.
+
+### Part 2.2: Exploring and generating the charts
+
+From within a Jupyter notebook, you should explore the
+datasets and generate charts visualizing different aspects of the data.
+
+**Requirements:**
+
+- 1 Matplotlib chart (of any type)
+  - You should consider what aspect of the dataset might be best plotted using matplotlib.
+  - You will be graded on aesthetics of the plot, namely, color choices and clarity.
+- 1 seaborn chart (of any type)
+  - Please include the motivation behind your choice for the type of seaborn plot used and why
+- 3 interactive altair plots
+  - The following techniques should be used at least once:
+    - A transformation (mean, count, binning, etc)
+    - Brush selection
+    - **Extra credit**: 2-chart dashboard, where filtering of one chart cross-filters the other chart (via `transform_filter()`)
+- A short discussion (a sentence or two) of the main conclusion of each chart (in a markdown cell below each chart). It does not need to be interesting or insightful, but it is good practice to always note the main conclusions so the notebook make sense after time passes.
+
+## Submission
+
+Add a `.ipynb` notebook file to your own private repository, as described in part 1 of these instructions.
