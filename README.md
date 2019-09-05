@@ -80,9 +80,10 @@ datasets and generate charts visualizing different aspects of the data.
 
 See the [grading rubric](./rubric.md) for more details.
 
-**Important:** Your notebooks should be a polished finished product. For example,
-extra, unneccesary code should be removed and you should use try to use
-markdown cells to provide separate sections of the analysis.
+**Important:** Your notebooks should be a polished finished product. For example:
+
+- please remove any extra or unneccesary code.
+- please try to use markdown cells with section headers to mark different sections of the analysis.
 
 ## Submission
 
