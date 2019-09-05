@@ -73,6 +73,28 @@ datasets and generate charts visualizing different aspects of the data.
     - **Extra credit**: 2-chart dashboard, where filtering of one chart cross-filters the other chart (via `transform_filter()`)
 - A short discussion (a sentence or two) of the main conclusion of each chart (in a markdown cell below each chart). It does not need to be interesting or insightful, but it is good practice to always note the main conclusions so the notebook make sense after time passes.
 
+## Grading Guidelines
+
+See the [grading rubric](./rubric.md) for more details.
+
 ## Submission
 
-Add a `.ipynb` notebook file to your own private repository, as described in part 1 of these instructions.
+We'll be using GitHub for assignment submission again. You can set up your own private repository on GitHub for this assignment using the following link:
+
+https://classroom.github.com/a/71lsWhMo
+
+The assignment should be added to this GitHub repository before the deadline. You can add files to
+the repository through the browser (github.com) interface or using the command line locally on your machine.
+For more help, see:
+
+- [Adding a file to a repository via Github](https://help.github.com/en/articles/adding-a-file-to-a-repository)
+- [Adding a file to a repository using the command line](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line)
+
+**Submission Steps:**
+
+1. Add your `.ipynb` notebook file to your own private repository, as described in part 1 of these instructions.
+1. You must either add the dataset used to the repository, or include the original source of the data so it can be downloaded during grading.
+
+**Note:** File sizes are limited to 25 MB when adding files to a repository via GitHub in a browser. If your
+dataset is larger than this, you can try compressing it into a ".zip" to make the file smaller, and then
+add it to the repository on GitHub.
