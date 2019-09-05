@@ -61,21 +61,28 @@ datasets and generate charts visualizing different aspects of the data.
 
 **Requirements:**
 
-- 1 Matplotlib chart (of any type)
+- **1 Matplotlib chart** (of any type)
   - You should consider what aspect of the dataset might be best plotted using matplotlib.
-  - You will be graded on aesthetics of the plot, namely, color choices and clarity.
-- 1 seaborn chart (of any type)
-  - Please include the motivation behind your choice for the type of seaborn plot used and why
-- 3 interactive altair plots
+  - Include your reasoning for using matplotlib to visualize this specific aspect of the data.
+  - You will be graded on the aesthetics of the plot, namely, color choices and clarity.
+- **1 seaborn chart** (of any type)
+  - Please include the motivation behind your choice for the type of seaborn plot used and why.
+- **3 interactive altair plots**
   - The following techniques should be used at least once:
     - A transformation (mean, count, binning, etc)
     - Brush selection
     - **Extra credit**: 2-chart dashboard, where filtering of one chart cross-filters the other chart (via `transform_filter()`)
-- A short discussion (a sentence or two) of the main conclusion of each chart (in a markdown cell below each chart). It does not need to be interesting or insightful, but it is good practice to always note the main conclusions so the notebook make sense after time passes.
+- A short discussion (a few sentences) of the main conclusion of each chart
+  (in a markdown cell below each chart). It does not need to be interesting or insightful,
+  but it is good practice to always note the main conclusions so the notebook make sense after time passes.
 
 ## Grading Guidelines
 
 See the [grading rubric](./rubric.md) for more details.
+
+**Important:** Your notebooks should be a polished finished product. For example,
+extra, unneccesary code should be removed and you should use try to use
+markdown cells to provide separate sections of the analysis.
 
 ## Submission
 
@@ -92,8 +99,9 @@ For more help, see:
 
 **Submission Steps:**
 
-1. Add your `.ipynb` notebook file to your own private repository, as described in part 1 of these instructions.
-1. You must either add the dataset used to the repository, or include the original source of the data so it can be downloaded during grading.
+1. Add your `.ipynb` notebook file to your own private repository before the submission deadline.
+1. Either add the dataset used in the analysis to the repository, or document the original source of the data so it can be downloaded during grading.
+1. Please be sure that your name is listed at the top of the notebook file you submit.
 
 **Note:** File sizes are limited to 25 MB when adding files to a repository via GitHub in a browser. If your
 dataset is larger than this, you can try compressing it into a ".zip" to make the file smaller, and then
