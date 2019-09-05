@@ -32,7 +32,7 @@ You will be graded on the following areas:
 - Matplotlib plots: 8 points
 - Seaborn plots: 8 plots
 - Altair plots: 20 points
-- Explanations / descriptive test: 4 points
+- Explanations / descriptive text: 4 points
 - Extra credit: 2 points
 
 **Total points: 40 points**
