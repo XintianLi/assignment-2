@@ -27,7 +27,7 @@ You can update the conda environment on your local environment following
 [the guide](https://github.com/MUSA-620-Fall-2019/course-materials/blob/master/general-guides/updating-your-environment.md) on the course materials repository.
 
 And then you are ready to launch a Jupyter notebook ([a guide](https://github.com/MUSA-620-Fall-2019/course-materials/blob/master/general-guides/launching-jupyter-notebook.md) is available on the
-course materials repository.
+course materials repository).
 
 Be sure to activate the "musa-620" environment before launching the notebook!
 
